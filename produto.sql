@@ -1,0 +1,9 @@
+CREATE TABLE produto (
+	id VARCHAR(50) NOT NULL,
+	nome VARCHAR(50) NOT NULL,
+	origem VARCHAR(50) NOT NULL,
+	qtd_prod INTEGER NULL,
+	marca VARCHAR(50) NOT NULL,
+	preco INTEGER NOT NULL,
+	CONSTRAINT pk_produto PRIMARY KEY (id)
+);
